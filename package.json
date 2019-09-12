@@ -1,0 +1,10 @@
+{
+  "name": "cssnano-preset-simple",
+  "version": "1.0.0",
+  "description": "A simple cssnano preset",
+  "main": "dist.js",
+  "repository": "git@github.com:timer/cssnano-preset-simple.git",
+  "author": "Joe Haddad <timer150@gmail.com>",
+  "license": "MIT",
+  "private": false
+}

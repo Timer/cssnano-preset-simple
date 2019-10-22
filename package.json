@@ -14,11 +14,13 @@
     "prebuild": "rimraf dist/",
     "build": "ncc build src/index.js -o dist --minify --external postcss",
     "prepublishOnly": "yarn build",
-    "semantic-release": "semantic-release"
+    "semantic-release": "semantic-release",
+    "commit": "git-cz"
   },
   "devDependencies": {
     "@zeit/ncc": "^0.20.5",
     "cssnano-preset-default": "^4.0.7",
+    "cz-conventional-changelog": "3.0.2",
     "rimraf": "^3.0.0",
     "semantic-release": "^15.13.24"
   },
@@ -27,5 +29,10 @@
   },
   "resolutions": {
     "postcss-svgo": "file:./postcss-plugin-stub/"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
   }
 }

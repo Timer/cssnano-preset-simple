@@ -24,6 +24,7 @@
     "cssnano-preset-default": "^4.0.7",
     "cz-conventional-changelog": "3.0.2",
     "jest": "^24.9.0",
+    "postcss-svgo": "file:./postcss-plugin-stub/",
     "rimraf": "^3.0.0",
     "semantic-release": "^15.13.24"
   },

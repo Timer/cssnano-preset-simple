@@ -19,17 +19,17 @@
     "commit": "git-cz"
   },
   "devDependencies": {
-    "@zeit/ncc": "^0.22.1",
+    "@zeit/ncc": "^0.22.3",
     "browserslist-config-google": "^1.5.0",
     "cssnano-preset-default": "^4.0.7",
     "cz-conventional-changelog": "3.2.0",
-    "jest": "^26.0.1",
+    "jest": "^26.1.0",
     "postcss-svgo": "file:./postcss-plugin-stub/",
     "rimraf": "^3.0.0",
-    "semantic-release": "^17.0.7"
+    "semantic-release": "^17.1.1"
   },
   "dependencies": {
-    "postcss": "^7.0.18"
+    "postcss": "^7.0.32"
   },
   "resolutions": {
     "postcss-svgo": "file:./postcss-plugin-stub/"

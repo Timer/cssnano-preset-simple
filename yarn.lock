@@ -7202,6 +7202,15 @@ strip-json-comments@~2.0.1:
   resolved "https://registry.yarnpkg.com/strip-json-comments/-/strip-json-comments-2.0.1.tgz#3c531942e908c2697c0ec344858c286c7ca0a60a"
   integrity sha1-PFMZQukIwml8DsNEhYwobHygpgo=
 
+stylehacks-nightly@0.6.26:
+  version "0.6.26"
+  resolved "https://registry.yarnpkg.com/stylehacks-nightly/-/stylehacks-nightly-0.6.26.tgz#5744853b032ff2e4882f929f061a9500bf6cbb6f"
+  integrity sha512-UjHP22Lf3CkOlRNuQMKtOy5Wj49HLYedJIMGTygKjFxxys64pjD9pWWR3qQyEnbK0r083MGqbDl7toePiM0E1A==
+  dependencies:
+    browserslist "^4.6.0"
+    postcss "^7.0.16"
+    postcss-selector-parser "^3.1.1"
+
 stylehacks@^4.0.3:
   version "4.0.3"
   resolved "https://registry.yarnpkg.com/stylehacks/-/stylehacks-4.0.3.tgz#6718fcaf4d1e07d8a1318690881e8d96726a71d5"

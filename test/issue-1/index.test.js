@@ -1,17 +1,17 @@
 describe('issue: 1', () => {
   beforeAll(() => {
-    process.env.BROWSERSLIST = `extends browserslist-config-google`
-  })
+    process.env.BROWSERSLIST = `extends browserslist-config-google`;
+  });
   afterAll(() => {
-    process.env.BROWSERSLIST = ''
-  })
+    process.env.BROWSERSLIST = '';
+  });
 
   beforeEach(() => {
-    jest.resetModules()
-  })
+    jest.resetModules();
+  });
 
   test('evaluates without error', () => {
-    const mod = require('../..')
-    mod()
-  })
-})
+    const mod = require('../..');
+    mod();
+  });
+});

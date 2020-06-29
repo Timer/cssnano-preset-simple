@@ -1,1 +1,1 @@
-module.exports = require('cssnano-preset-default')
+module.exports = require("cssnano-preset-default-nightly");

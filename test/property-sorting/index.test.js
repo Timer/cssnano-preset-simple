@@ -3,7 +3,7 @@ const mod = require('../plugin');
 const css = require('../noop-template');
 
 describe('property sorting', () => {
-  test('bla', async () => {
+  test('should result in correct border width', async () => {
     const input = css`
       p {
         border: 1px solid var(--test);

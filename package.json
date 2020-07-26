@@ -21,48 +21,24 @@
   "devDependencies": {
     "@zeit/ncc": "^0.22.3",
     "browserslist-config-google": "^1.5.0",
-    "cssnano-preset-default-nightly": "0.6.26",
+    "cssnano-preset-default-nightly": "0.7.25",
     "cz-conventional-changelog": "3.2.0",
     "husky": "^4.2.5",
     "jest": "^26.1.0",
     "postcss-svgo": "file:./postcss-plugin-stub/",
+    "postcss-svgo-nightly": "file:./postcss-plugin-stub/",
     "prettier": "^2.0.5",
     "pretty-quick": "^2.0.1",
     "rimraf": "^3.0.0",
     "semantic-release": "^17.1.1",
-    "stylehacks-nightly": "0.6.26"
+    "stylehacks-nightly": "0.7.25"
   },
   "dependencies": {
     "postcss": "^7.0.32"
   },
   "resolutions": {
     "postcss-svgo": "file:./postcss-plugin-stub/",
-    "postcss-svgo-nightly": "file:./postcss-plugin-stub/",
-    "postcss-colormin-nightly": "0.6.26",
-    "postcss-convert-values-nightly": "0.6.26",
-    "postcss-discard-comments-nightly": "0.6.26",
-    "postcss-discard-duplicates-nightly": "0.6.26",
-    "postcss-discard-empty-nightly": "0.6.26",
-    "postcss-discard-overridden-nightly": "0.6.26",
-    "postcss-merge-longhand-nightly": "0.6.26",
-    "postcss-merge-rules-nightly": "0.6.26",
-    "postcss-minify-font-values-nightly": "0.6.26",
-    "postcss-minify-gradients-nightly": "0.6.26",
-    "postcss-minify-params-nightly": "0.6.26",
-    "postcss-minify-selectors-nightly": "0.6.26",
-    "postcss-normalize-charset-nightly": "0.6.26",
-    "postcss-normalize-display-values-nightly": "0.6.26",
-    "postcss-normalize-positions-nightly": "0.6.26",
-    "postcss-normalize-repeat-style-nightly": "0.6.26",
-    "postcss-normalize-string-nightly": "0.6.26",
-    "postcss-normalize-timing-functions-nightly": "0.6.26",
-    "postcss-normalize-unicode-nightly": "0.6.26",
-    "postcss-normalize-url-nightly": "0.6.26",
-    "postcss-normalize-whitespace-nightly": "0.6.26",
-    "postcss-ordered-values-nightly": "0.6.26",
-    "postcss-reduce-initial-nightly": "0.6.26",
-    "postcss-reduce-transforms-nightly": "0.6.26",
-    "postcss-unique-selectors-nightly": "0.6.26"
+    "postcss-svgo-nightly": "file:./postcss-plugin-stub/"
   },
   "config": {
     "commitizen": {

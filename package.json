@@ -21,7 +21,7 @@
   "devDependencies": {
     "@zeit/ncc": "^0.22.3",
     "browserslist-config-google": "^1.5.0",
-    "cssnano-preset-default-nightly": "0.8.1",
+    "cssnano-preset-default-nightly": "0.8.4",
     "cz-conventional-changelog": "3.2.0",
     "husky": "^4.2.5",
     "jest": "^26.2.2",
@@ -31,11 +31,11 @@
     "pretty-quick": "^2.0.1",
     "rimraf": "^3.0.0",
     "semantic-release": "^17.1.1",
-    "stylehacks-nightly": "0.8.1"
+    "stylehacks-nightly": "0.8.4"
   },
   "dependencies": {
-    "postcss": "^7.0.32",
-    "caniuse-lite": "^1.0.30001093"
+    "caniuse-lite": "^1.0.30001093",
+    "postcss": "^7.0.32"
   },
   "resolutions": {
     "postcss-svgo": "file:./postcss-plugin-stub/",

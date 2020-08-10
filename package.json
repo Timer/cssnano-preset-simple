@@ -12,7 +12,7 @@
   ],
   "scripts": {
     "prebuild": "rimraf dist/ && node patch.js",
-    "build": "ncc build src/index.js -o dist --minify --external postcss",
+    "build": "ncc build src/index.js -o dist --minify --external postcss --external caniuse-lite",
     "test": "jest",
     "prepublishOnly": "yarn build && yarn test",
     "semantic-release": "semantic-release",
@@ -34,7 +34,8 @@
     "stylehacks-nightly": "0.8.1"
   },
   "dependencies": {
-    "postcss": "^7.0.32"
+    "postcss": "^7.0.32",
+    "caniuse-lite": "^1.0.30001093"
   },
   "resolutions": {
     "postcss-svgo": "file:./postcss-plugin-stub/",

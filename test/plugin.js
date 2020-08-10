@@ -19,8 +19,8 @@ function initializePlugin(plugin, css, result) {
   return Promise.resolve();
 }
 
-module.exports = postcss.plugin('cssnano-simple', () => {
-  const preset = createSimplePreset();
+module.exports = postcss.plugin('cssnano-simple', (opts = {}) => {
+  const preset = createSimplePreset(opts);
   return (css, result) => {
     return preset.plugins.reduce((promise, plugin) => {
       return promise.then(initializePlugin.bind(null, plugin, css, result));

@@ -1,4 +1,4 @@
-const mod = require('cssnano-preset-default-nightly');
+const mod = require('cssnano-preset-default');
 
 module.exports = function (opts = {}) {
   const options = Object.assign(

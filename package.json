@@ -21,25 +21,25 @@
   "devDependencies": {
     "@vercel/ncc": "^0.27.0",
     "browserslist-config-google": "^1.5.0",
-    "cssnano-preset-default-nightly": "0.8.4",
+    "cssnano-preset-default": "5.0.0-rc.2",
     "cz-conventional-changelog": "3.3.0",
     "husky": "^4.3.8",
     "jest": "^26.6.3",
+    "postcss": "^8.2.8",
     "postcss-svgo": "file:./postcss-plugin-stub/",
-    "postcss-svgo-nightly": "file:./postcss-plugin-stub/",
     "prettier": "^2.2.1",
     "pretty-quick": "^3.1.0",
     "rimraf": "^3.0.0",
-    "semantic-release": "^17.3.7",
-    "stylehacks-nightly": "0.8.4"
+    "semantic-release": "^17.3.7"
   },
   "dependencies": {
-    "caniuse-lite": "^1.0.30001179",
-    "postcss": "^7.0.32"
+    "caniuse-lite": "^1.0.30001202"
+  },
+  "peerDependencies": {
+    "postcss": "^8.2.1"
   },
   "resolutions": {
-    "postcss-svgo": "file:./postcss-plugin-stub/",
-    "postcss-svgo-nightly": "file:./postcss-plugin-stub/"
+    "postcss-svgo": "file:./postcss-plugin-stub/"
   },
   "config": {
     "commitizen": {

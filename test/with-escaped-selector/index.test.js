@@ -14,6 +14,6 @@ describe('with escaped selector', () => {
       to: 'output.css',
     });
 
-    expect(res.css).toMatchInlineSnapshot(`".foo\\\\,2{background:#00f}"`);
+    expect(res.css).toMatchInlineSnapshot(`".foo\\\\,2{background:blue}"`);
   });
 });

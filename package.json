@@ -33,7 +33,7 @@
     "semantic-release": "^19.0.2"
   },
   "dependencies": {
-    "caniuse-lite": "^1.0.30001202"
+    "caniuse-lite": "^1.0.30001314"
   },
   "peerDependencies": {
     "postcss": "^8.2.15"

@@ -7,8 +7,4 @@ function pluginCreator() {
   };
 }
 pluginCreator.postcss = true;
-
-Object.defineProperty(exports, '__esModule', {
-  value: true,
-});
-exports.default = pluginCreator;
+export default pluginCreator;

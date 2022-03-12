@@ -6,8 +6,7 @@ const cssnanoPlugin = (options = {}) => {
   const nanoPlugins = createSimplePreset(options).plugins;
   for (const nanoPlugin of nanoPlugins) {
     if (Array.isArray(nanoPlugin)) {
-      let [processor, opts] = nanoPlugin;
-      processor = processor.default || processor;
+      const [processor, opts] = nanoPlugin;
       if (
         typeof opts === 'undefined' ||
         (typeof opts === 'object' && !opts.exclude) ||

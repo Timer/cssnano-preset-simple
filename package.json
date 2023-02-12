@@ -12,7 +12,7 @@
   ],
   "scripts": {
     "prebuild": "rimraf dist/ && node patch.js",
-    "build": "ncc build src/index.js -o dist --minify --external postcss --external caniuse-lite --external caniuse-lite/dist/unpacker/feature --external caniuse-lite/dist/unpacker/region --external caniuse-lite/dist/unpacker/agents",
+    "build": "ncc build src/index.js -o dist --minify --external browserslist --external postcss --external caniuse-lite --external caniuse-lite/dist/unpacker/feature --external caniuse-lite/dist/unpacker/region --external caniuse-lite/dist/unpacker/agents",
     "test": "jest",
     "prepublishOnly": "yarn build && yarn test",
     "semantic-release": "semantic-release",
@@ -33,6 +33,7 @@
     "semantic-release": "^19.0.2"
   },
   "dependencies": {
+    "browserslist": "^4.21.5",
     "caniuse-lite": "^1.0.30001314"
   },
   "peerDependencies": {
